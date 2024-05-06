@@ -1,0 +1,73 @@
+ul {
+    li {
+        display: inline-block;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 28px;
+        letter-spacing: 0.5px;
+    }
+
+    .home {
+        color: #FA4A0C;
+    }
+
+    .logo {
+        margin: 26px 500px 28px 70px;
+        vertical-align: -30px;
+    }
+
+    .product {
+        margin: 63px 104px 65px 104px;
+    }
+
+    .faq {
+        margin: 63px 104px 65px 0px;
+    }
+
+
+}
+
+
+.header-div {
+    background-image: url(/images/main/background-image-top.svg);
+    width: 1440px;
+    height: 618px;
+
+    h3 {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 36px;
+        letter-spacing: 0.2px;
+        color: #F6F6F6;
+        padding-top: 73px;
+        padding-bottom: 17px;
+    }
+
+    h1 {
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-size: 58px;
+        line-height: 80px;
+        letter-spacing: 0.2px;
+        color: #FFFFFF;
+    }
+
+    h4 {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 38px;
+        letter-spacing: 0.2px;
+        color: #F6F6F6;
+        padding-top: 17px;
+        padding-bottom: 22px;
+    }
+
+    .text-div {
+        text-align: center;
+    }
+
+}
+
