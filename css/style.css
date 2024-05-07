@@ -31,10 +31,7 @@ ul {
         margin: 63px 104px 65px 0px;
         color: #252B42;
     }
-
-
 }
-
 
 .header-div {
     background-image: url(/images/main/background-image-top.svg);
@@ -44,7 +41,6 @@ ul {
     .text-div {
         text-align: center;
 
-        
         h3 {
             font-family: "Montserrat", sans-serif;
             font-weight: 700;
@@ -108,7 +104,6 @@ ul {
         color: #FFFFFF;
     }
 }
-
 
 .images-div { 
     width: 1440px;
@@ -174,7 +169,6 @@ ul {
     margin-right: 40px;
 }
 
-
 .bottom-image {
     background-image: url(/images/main/background-image-bottom.svg);
     width: 1440px;
@@ -204,7 +198,6 @@ ul {
         letter-spacing: 0.5px;
         padding-bottom: 75px;
     }
-
 }
 
 .footer-div {
