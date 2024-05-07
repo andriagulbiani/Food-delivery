@@ -1,3 +1,7 @@
+body {
+    max-width: 1440px;
+}
+
 ul {
     li {
         display: inline-block;
@@ -100,15 +104,63 @@ ul {
 }
 
 
+.images-div { 
+    width: 1440px;
+    height: 640px;
 
-body {
-    position: relative;
+    img {
+        position: absolute;
+        left: 345px;
+        top: 495px;
+    }
 }
 
-.phone-img {
-    position: absolute;
-    left: 345px;
-    top: 495px;
+.h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 36px;
+    letter-spacing: 0.2px;
+    padding: 50px 0px 89px 495px;
 }
 
 
+.login-image {
+    margin-left: 150px;
+    margin-right: -35px;
+}
+
+.login-text {
+    display: inline-block;
+    max-width: 561px;
+    vertical-align: 450px;
+
+    .create {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 36px;
+        color: #FA4A0C;
+    }
+
+    .login {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 57px;
+        color: #252B42;
+        margin: 10px 0px;
+    }
+
+    .account {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 38px;
+        color: #737373;
+    }
+
+
+
+
+}
