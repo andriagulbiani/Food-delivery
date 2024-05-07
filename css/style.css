@@ -79,6 +79,7 @@ ul {
     text-align: center;
 
     .playstore {
+        border: solid 1px transparent;
         background-color: #FA4A0C;
         border-radius: 30px;
         padding: 16px 58px;
@@ -86,13 +87,15 @@ ul {
     }
 
     .appstore {
-        border: solid 1px;
+        border: solid 1px white;
         border-radius: 30px;
         padding: 16px 58px;
         margin-left: 17px;
+        background-color: transparent;
+        color: white;
     }
 
-    p {
+    input {
         display: inline-block;
         font-family: "Montserrat", sans-serif;
         font-weight: 700;
