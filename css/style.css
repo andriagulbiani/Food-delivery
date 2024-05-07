@@ -172,4 +172,34 @@ ul {
 }
 
 
+.bottom-image {
+    background-image: url(/images/main/background-image-bottom.svg);
+    width: 1440px;
+    height: 509px
+    
+}
 
+.bottom-text-div {
+    text-align: center;
+    color: white;
+
+    .footer-p1 {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 57px;
+        letter-spacing: 0.5px;
+        padding-top: 150px;
+        padding-bottom: 25px;
+    }
+
+    .footer-p2 {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 38px;
+        letter-spacing: 0.5px;
+        padding-bottom: 75px;
+    }
+
+}
