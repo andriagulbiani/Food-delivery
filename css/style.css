@@ -19,14 +19,17 @@ ul {
   .logo {
     margin: 26px 500px 28px 70px;
     vertical-align: -30px;
+    color: #252B42;
   }
 
   .product {
     margin: 63px 104px 65px 104px;
+    color: #252B42;
   }
 
   .faq {
     margin: 63px 104px 65px 0px;
+    color: #252B42;
   }
 }
 
