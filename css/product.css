@@ -1,0 +1,56 @@
+body {
+    position: relative;
+    background-image: url(../images/product/background.svg);
+    max-width: 1440px;
+    max-height: 900px;
+}
+
+.header-div { 
+    position: absolute;
+    top: 160px;
+    left: 380px;
+    text-align: center;
+
+    .p1 {
+        font-weight: 600;
+        font-size: 54px;
+        line-height: 24px;
+        margin-bottom: 30px;
+    }
+
+    .p2 {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 24px;
+    }
+}
+
+.images {
+
+    .image1{
+        position: absolute;
+        top: 471px;
+        left: 189px;
+        bottom: -146px;
+    }
+
+    .image2{
+        position: absolute;
+        top: 342px;
+        left: 433px;
+        z-index: 3;
+    }
+
+    .image3{
+        position: absolute;
+        top: 339px;
+        right: 355px;
+        z-index: 2;
+    }
+
+    .image4{
+        position: absolute;
+        top: 448px;
+        right: 239px;
+    }
+}
