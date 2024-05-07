@@ -1,225 +1,230 @@
 body {
-  max-width: 1440px;
+    max-width: 1440px;
 }
 
 ul {
-  li {
-    display: inline-block;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 28px;
-    letter-spacing: 0.5px;
-  }
+    li {
+        display: inline-block;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 28px;
+        letter-spacing: 0.5px;
+    }
 
-  .home {
-    color: #fa4a0c;
-  }
+    .home {
+        color: #FA4A0C;
+    }
 
-  .logo {
-    margin: 26px 500px 28px 70px;
-    vertical-align: -30px;
-    color: #252B42;
-  }
+    .logo {
+        margin: 26px 500px 28px 70px;
+        vertical-align: -30px;
+    }
 
-  .product {
-    margin: 63px 104px 65px 104px;
-    color: #252B42;
-  }
+    .product {
+        margin: 63px 104px 65px 104px;
+    }
 
-  .faq {
-    margin: 63px 104px 65px 0px;
-    color: #252B42;
-  }
+    .faq {
+        margin: 63px 104px 65px 0px;
+    }
+
+
 }
 
+
 .header-div {
-  background-image: url(/images/main/background-image-top.svg);
-  width: 1440px;
-  height: 618px;
+    background-image: url(/images/main/background-image-top.svg);
+    width: 1440px;
+    height: 618px;
 
-  .text-div {
-    text-align: center;
+    .text-div {
+        text-align: center;
 
-    h3 {
-      font-family: "Montserrat", sans-serif;
-      font-weight: 700;
-      font-size: 24px;
-      line-height: 36px;
-      letter-spacing: 0.2px;
-      color: #f6f6f6;
-      padding-top: 73px;
-      padding-bottom: 17px;
+        
+        h3 {
+            font-family: "Montserrat", sans-serif;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 36px;
+            letter-spacing: 0.2px;
+            color: #F6F6F6;
+            padding-top: 73px;
+            padding-bottom: 17px;
+        }
+
+        h1 {
+            font-family: "Poppins", sans-serif;
+            font-weight: 700;
+            font-size: 58px;
+            line-height: 80px;
+            letter-spacing: 0.2px;
+            color: #FFFFFF;
+        }
+
+        h4 {
+            font-family: "Montserrat", sans-serif;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 38px;
+            letter-spacing: 0.2px;
+            color: #F6F6F6;
+            padding-top: 17px;
+            padding-bottom: 22px;
+        }
     }
-
-    h1 {
-      font-family: "Poppins", sans-serif;
-      font-weight: 700;
-      font-size: 58px;
-      line-height: 80px;
-      letter-spacing: 0.2px;
-      color: #ffffff;
-    }
-
-    h4 {
-      font-family: "Montserrat", sans-serif;
-      font-weight: 500;
-      font-size: 24px;
-      line-height: 38px;
-      letter-spacing: 0.2px;
-      color: #f6f6f6;
-      padding-top: 17px;
-      padding-bottom: 22px;
-    }
-  }
 }
 
 .button-div {
-  text-align: center;
+    text-align: center;
 
-  .playstore {
-    border: solid 1px transparent;
-    background-color: #fa4a0c;
-    border-radius: 30px;
-    padding: 16px 58px;
-    margin-right: 17px;
-  }
+    .playstore {
+        border: solid 1px transparent;
+        background-color: #FA4A0C;
+        border-radius: 30px;
+        padding: 16px 58px;
+        margin-right: 17px;
+    }
 
-  .appstore {
-    border: solid 1px white;
-    border-radius: 30px;
-    padding: 16px 58px;
-    margin-left: 17px;
-    background-color: transparent;
-    color: white;
-  }
+    .appstore {
+        border: solid 1px white;
+        border-radius: 30px;
+        padding: 16px 58px;
+        margin-left: 17px;
+        background-color: transparent;
+        color: white;
+    }
 
-  input {
-    display: inline-block;
+    input {
+        display: inline-block;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 36px;
+        letter-spacing: 0.5px;
+        color: #FFFFFF;
+    }
+}
+
+
+.images-div { 
+    width: 1440px;
+    height: 640px;
+
+    img {
+        position: absolute;
+        left: 345px;
+        top: 495px;
+    }
+}
+
+.h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 36px;
+    letter-spacing: 0.2px;
+    padding: 50px 0px 89px 495px;
+}
+
+.section-p1 {
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
     font-size: 24px;
     line-height: 36px;
-    letter-spacing: 0.5px;
-    color: #ffffff;
-  }
-}
-
-.images-div {
-  width: 1440px;
-  height: 640px;
-
-  img {
-    position: absolute;
-    left: 345px;
-    top: 495px;
-  }
-}
-
-.h2 {
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  font-size: 44px;
-  line-height: 36px;
-  letter-spacing: 0.2px;
-  padding: 50px 0px 89px 495px;
-}
-
-.section-p1 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 36px;
-  color: #fa4a0c;
+    color: #FA4A0C;
 }
 
 .section-p2 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 600;
-  font-size: 40px;
-  line-height: 57px;
-  color: #252b42;
-  margin: 10px 0px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 57px;
+    color: #252B42;
+    margin: 10px 0px;
 }
 
 .section-p3 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 38px;
-  color: #737373;
-}
-
-.login-image {
-  margin-left: 150px;
-  margin-right: -35px;
-}
-
-.section1-div {
-  display: inline-block;
-  max-width: 561px;
-  vertical-align: 450px;
-}
-
-.section2-div {
-  display: inline-block;
-  max-width: 561px;
-  vertical-align: 450px;
-  margin-left: 260px;
-  margin-right: 40px;
-}
-
-.bottom-image {
-  background-image: url(/images/main/background-image-bottom.svg);
-  width: 1440px;
-  height: 509px;
-}
-
-.bottom-text-div {
-  text-align: center;
-  color: white;
-
-  .footer-p1 {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 57px;
-    letter-spacing: 0.5px;
-    padding-top: 150px;
-    padding-bottom: 25px;
-  }
-
-  .footer-p2 {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 24px;
     line-height: 38px;
-    letter-spacing: 0.5px;
-    padding-bottom: 75px;
-  }
+    color: #737373;
+}
+
+.login-image {
+    margin-left: 150px;
+    margin-right: -35px;
+}
+
+.section1-div {
+    display: inline-block;
+    max-width: 561px;
+    vertical-align: 450px;
+}
+
+.section2-div {
+    display: inline-block;
+    max-width: 561px;
+    vertical-align: 450px;
+    margin-left: 260px;
+    margin-right: 40px;
+}
+
+
+.bottom-image {
+    background-image: url(/images/main/background-image-bottom.svg);
+    width: 1440px;
+    height: 509px
+    
+}
+
+.bottom-text-div {
+    text-align: center;
+    color: white;
+
+    .footer-p1 {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 57px;
+        letter-spacing: 0.5px;
+        padding-top: 150px;
+        padding-bottom: 25px;
+    }
+
+    .footer-p2 {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 38px;
+        letter-spacing: 0.5px;
+        padding-bottom: 75px;
+    }
+
 }
 
 .footer-div {
-  margin-top: 100px;
-  margin-bottom: 250px;
+    margin-top: 100px;
+    margin-bottom: 250px;
 
-  .logo2 {
-    margin-left: 90px;
-    margin-right: 250px;
-  }
+    .logo2 {
+        margin-left: 90px;
+        margin-right: 250px;
+    }
 
-  .facebook {
-    margin: 0px 100px;
-    vertical-align: -4px;
-  }
+    .facebook {
+        margin: 0px 100px;
+        vertical-align: -4px;
+    }
 
-  p {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 18px;
-    letter-spacing: 0.2px;
-    color: #5c5c5c;
-    margin-left: 210px;
-  }
+    p {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: 0.2px;
+        color: #5C5C5C;
+        margin-left: 210px;
+    }
 }
